@@ -42,7 +42,7 @@ function showMoreImages(results) {
     const img = document.createElement("img");
     const a = document.createElement("a");
     const i = document.createElement("i");
-    i.classList.add("fa-regular fa-bookmark");
+    i.classList.add("fa-regular", "fa-bookmark");
     div.classList.add("search-result");
     img.src = result.urls.regular;
     img.alt = result.alt_description;
